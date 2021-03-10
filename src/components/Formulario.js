@@ -63,7 +63,7 @@ const Formulario = ({ guardarGasto, guardarCrearGasto, gasto, restante }) => {
       )}
 
       {errorpresupuesto && (
-        <Error mensaje="El gasto es mayor a su Presupuesto" />
+        <Error mensaje="El gasto es mayor a su dinero disponible" />
       )}
       <div className="Campo">
         <label>Nombre Gasto</label>
